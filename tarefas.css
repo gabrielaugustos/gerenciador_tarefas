@@ -1,0 +1,65 @@
+body {
+    font-family: Sans-serif;
+    color: #333;
+}
+
+form {
+    margin: 0 auto;
+    /* Centraliza o conteúdo horizontalmente */
+    max-width: 800px;
+    /* Defina a largura máxima desejada */
+}
+
+h1 {
+    text-align: center;
+}
+
+.erro {
+    color: #F44;
+}
+
+fieldset {
+    border: 3px double #333;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+input[type=text],
+textarea {
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    float: right;
+    clear: both;
+}
+
+table {
+    margin: 30px auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+table th {
+    background-color: #EEE;
+    font-size: 18px;
+}
+
+table td {
+    border-bottom: 1px solid #333;
+    color: #000;
+}
+
+.bloco_principal_anexo{
+    margin: 50px;
+    color: #F44;
+}
